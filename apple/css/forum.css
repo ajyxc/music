@@ -1,0 +1,9 @@
+body {
+  background-image: url("../img/background1/forum.jpg");
+}
+
+.forum {
+  margin-left: 70px;
+  max-height: 1680px;
+  margin-top: 190px;
+}

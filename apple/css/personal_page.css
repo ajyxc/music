@@ -1,0 +1,17 @@
+body {
+  background-image: url("../img/background1/personal_page.jpg");
+  background-repeat: no-repeat;
+  background-size: 1522px;
+}
+
+.personalprofile {
+  margin-left: 70px;
+  max-height: 1680px;
+  margin-top: 190px;
+}
+.bgprofile {
+  max-width: 400px;
+  position: absolute;
+  left: 97.2px;
+  top: 271px;
+}

@@ -1,0 +1,185 @@
+ul.tunes1 {
+  position: absolute;
+  top: 5025px;
+  left: 980px;
+  margin-left: -200px;
+  list-style-type: none;
+  z-index: 0;
+}
+ul.tunes1 li {
+  position: relative;
+  width: 200px;
+  height: 190px;
+  float: left;
+  margin-left: 20px;
+}
+ul.tunes1 li div.album1 {
+  margin: 0 0 48px 0;
+  display: inline;
+  width: 200px;
+  height: 120px;
+  position: absolute;
+  text-decoration: none;
+  -webkit-transition: all 0.15s linear;
+  color: #333;
+  left: 0px;
+  top: 0px;
+}
+ul.tunes1 img {
+  width: 120px;
+  position: relative;
+  z-index: 30;
+  float: left;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+  -webkit-border-radius: 2px;
+}
+
+ul.tunes1 li div.album1 div {
+  display: block;
+  opacity: 0.95;
+  text-align: center;
+  -webkit-transition: all 0.25s linear;
+  clear: left;
+  width: 120px;
+}
+ul.tunes1 li div.album1 div h5 {
+  text-align: center;
+  margin-bottom: -0.2em;
+}
+.middle-icon1:hover ul.tunes1 li div.album1 div {
+  opacity: 1;
+}
+
+ul.tunes1 li div.album1 span.vinyl1 {
+  width: 116px;
+  height: 116px;
+  z-index: 1;
+  display: block;
+  -webkit-transition: all 0.25s linear;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  margin-left: 16px;
+}
+ul.tunes1 li div.album1 span.vinyl1 div {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  display: block;
+  z-index: 10;
+  width: 300px;
+  height: 300px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 59px;
+  -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+  -webkit-transition: all 0.25s linear;
+  overflow: hidden;
+  border: solid 1px black;
+  background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(transparent),
+      color-stop(0.1, transparent),
+      color-stop(0.5, rgba(255, 255, 255, 0.25)),
+      color-stop(0.9, transparent),
+      to(transparent)
+    ),
+    -webkit-gradient(radial, 2 56, 10, 56 56, 114, from(transparent), color-stop(0.01, transparent), color-stop(0.021, rgba(0, 0, 0, 1)), color-stop(0.09, rgba(0, 0, 0, 1)), color-stop(0.1, rgba(28, 28, 28, 1)), to(rgba(28, 28, 28, 1)));
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.middle-icon1:hover ul.tunes1 li div.album1 span.vinyl1 {
+  -webkit-transform: translateX(60px);
+}
+.middle-icon1:hover ul.tunes1 li div.album1 span.vinyl1 div {
+  -webkit-transform: rotate(120deg);
+  border-top: 0;
+  border-left: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+ul.tunes1 li span.gloss {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 120px;
+  height: 120px;
+  background: url(http://zurb.com/playground/uploads/upload/upload/85/sheen3.png)
+    no-repeat;
+  z-index: 100;
+}
+
+ul.tunes1 li div.album1 ul.actions {
+  display: block;
+  position: absolute;
+  width: 60px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  left: 35px;
+  top: 0px;
+  height: 114px;
+  z-index: 1;
+  -webkit-transition: all 0.25s linear;
+}
+.middle-icon1:hover ul.tunes1 li div.album1 ul.actions {
+  -webkit-transform: translateX(60px);
+}
+
+ul.tunes1 li div.album1 ul.actions li {
+  display: block;
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  left: -10px;
+  top: 22px;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(black),
+    to(#333)
+  );
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.15);
+}
+ul.tunes1 li div.album1 ul.actions li:hover {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#333),
+    to(black)
+  );
+}
+ul.tunes1 li div.album1 ul.actions li.info {
+  top: 48px;
+  left: -19px;
+}
+ul.tunes1 li div.album1 ul.actions li a {
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+ul.tunes1 li div.album1 ul.actions li.play-pause a {
+  background: url(http://zurb.com/playground/uploads/upload/upload/84/play-button.png)
+    no-repeat center center;
+}
+ul.tunes1 li div.album1 ul.actions li.info a {
+  background: url(http://zurb.com/playground/uploads/upload/upload/83/info.png)
+    no-repeat center center;
+}
+
+ul.tunes1 li {
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.75);
+}
+
+ul.tunes1 h5 {
+  padding-top: 8px;
+  color: #fff;
+}
+ul.tunes1 small {
+  color: #fff;
+  opacity: 0.75;
+}

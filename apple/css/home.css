@@ -1,0 +1,205 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Phosphate";
+  src: url(../Phosphate.ttc);
+  font-weight: normal;
+}
+
+.module1 {
+  background-image: url("../img/background1/home01.jpg");
+  background-size: 1280px;
+  min-height: 900px;
+  background-repeat: no-repeat;
+  margin-top: -10px;
+}
+
+.intro {
+  display: inline;
+}
+.white_bar {
+  padding-top: 230px;
+}
+/*
+.intro-img {
+  display: block;
+  max-width: 20%;
+  max-height: 100%;
+} */
+#img-hover {
+  max-width: 20%;
+  margin-left: 500px;
+  padding-top: 90px;
+  margin-right: auto;
+  opacity: 0.8;
+}
+
+.intro-text {
+  text-align: center;
+}
+
+#carousel-wrapper {
+  background-color: #333333;
+}
+
+#steps {
+  margin-top: 70px;
+  max-height: 50px;
+  margin-left: 400px;
+}
+
+.carousel {
+  padding-top: 0px;
+  padding-bottom: 100px;
+  positon: absolute;
+}
+.carousel-inner {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 40%;
+}
+#button1 {
+  max-width: 350px;
+  margin-left: 460px;
+  padding-bottom: 50px;
+  padding-top: 80px;
+}
+.module2 {
+  background-image: url("../img/background1/home2.jpg");
+
+  min-height: 900px;
+}
+
+.band_btn {
+  display: inline-block;
+  max-width: 100%;
+  max-height: 100%;
+  top: 2460px;
+  left: 350px;
+  position: absolute;
+}
+
+#cf {
+}
+
+#cf img {
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#cf img.top:hover {
+  opacity: 0;
+}
+.media_btn {
+  top: 3320px;
+  left: 450px;
+  position: absolute;
+}
+.post_btn {
+  top: 4120px;
+  left: 350px;
+  position: absolute;
+}
+.jammers_btn {
+  top: 5120px;
+  left: 350px;
+  position: absolute;
+}
+#all_band_post {
+  margin-left: 130px;
+}
+
+#all_band_post_effect {
+  margin-left: -265px;
+}
+
+#all_media {
+  margin-left: 70px;
+}
+
+#all_media_effect {
+  margin-left: -215px;
+}
+
+#all_post {
+  margin-left: 150px;
+}
+
+#all_post_effect {
+  margin-left: -215px;
+}
+
+#all_post {
+  margin-left: 150px;
+}
+
+#all_post_effect {
+  margin-left: -215px;
+}
+
+#all_jammers {
+  margin-left: 160px;
+}
+
+#all_jammers_effect {
+  margin-left: -238px;
+}
+#home_part2 {
+  max-width: 1080px;
+  margin-left: 85px;
+  padding-top: 50px;
+  margin-bottom: 100px;
+}
+#album_row_1 {
+  display: inline-flex;
+}
+.middle-icon {
+  margin-left: 80px;
+  display: inline-flex;
+}
+.middle-icon1 {
+  margin-left: 150px;
+}
+
+#album_row_2 {
+  margin-top: 40px;
+  margin-left: 60px;
+  display: inline-flex;
+}
+.middle-icon2 {
+  margin-left: 80px;
+  display: inline-flex;
+}
+.middle-icon3 {
+  margin-left: 150px;
+}
+
+.module3 {
+  background-image: url("../img/background1/home3.jpg");
+
+  min-height: 900px;
+}
+
+#CD1 {
+  min-width: 380px;
+  top: -7%;
+  left: -14%;
+}
+
+#triangle {
+  top: 550%;
+  left: 1160%;
+  max-height: 200%;
+  max-width: 180%;
+}
+
+#All_jammers {
+  padding-bottom: 70px;
+  max-width: 95%;
+  vertical-align: middle;
+  padding-top: 100px;
+}

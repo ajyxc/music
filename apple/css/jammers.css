@@ -1,0 +1,123 @@
+.middle-icon{
+    width: 33%;
+    margin-left: auto;
+    margin-right:auto;
+    background-color: orangered;
+    text-align: center;
+    margin-top: 40px;
+    position: relative;
+}
+
+.middle-icon img{
+    width:250px;
+    height: 250px;
+    margin-top: 30px;
+    position: inherit;
+    z-index: 2;
+}
+
+.instrument{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.instrument li{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    list-style: none;
+    border: 2px solid black;
+    border-radius: 50%;
+    line-height:46px;
+}
+
+.middle-icon .tag ul{
+    display: inline-block;
+}
+
+.middle-icon .tag li{
+    border-radius: 4px;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 19px;
+    list-style: none;
+    border: 2px solid black;
+}
+
+.middle-icon:hover div.spinning-disk{
+    transform: translateX(100px) rotate(120deg);
+}
+
+/*.middle-icon:hover .spinning-disk image{*/
+    /*-webkit-transform: rotate(120deg);*/
+/*}*/
+
+
+.spinning-disk{
+    position: absolute;
+    left: 20%;
+    top: 12%;
+    z-index: 1;
+}
+
+
+
+.body-title{
+    font-size:2rem;
+}
+
+.tunes{
+    position: absolute;
+    top: 11%;
+    left: 16%;
+}
+
+ .middle-icon #ac{
+     left: 117%;
+     top: 32%;
+     z-index: 1;
+}
+
+ .post-container{
+     display: flex;
+     justify-content: space-between;
+     width: 80%;
+     margin-left: auto;
+     margin-right: auto;
+     border: 2px solid white;
+ }
+
+ .posts-entity{
+     border: 2px solid red;
+     width:30%;
+ }
+
+
+ .posts-entity-box{
+     margin-left: auto;
+     margin-right:auto;
+     width: 90%;
+     text-align: center;
+     border:2px solid black;
+     margin-top: 30px;
+ }
+
+ .posts-entity-box img{
+     width: 200px;
+     height: 200px;
+ }
+
+ /*.posts-entity-box ul li{*/
+     /*list-style: none;*/
+     /*display: inline-block;*/
+     /*border-radius: 50%;*/
+     /*border: 2px solid white;*/
+     /*width: 50px;*/
+     /*height:50px;*/
+ /*}*/
+

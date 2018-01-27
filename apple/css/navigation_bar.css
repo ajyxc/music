@@ -1,0 +1,201 @@
+@font-face {
+  font-family: "Phosphate";
+  src: url(../Phosphate.ttc);
+  font-weight: normal;
+}
+
+@media screen and (min-width: 1910px) {
+  .form-logo {
+    left: 44.7%;
+  }
+}
+
+@media screen and (max-width: 1910px) {
+  .form-logo {
+    left: 41.7%;
+  }
+}
+nav {
+  font-family: 'Century gothic';
+  top: 90px;
+  background-image: url("../img/black_navig_bar.png");
+}
+nav {
+  width: 100%;
+  height: 60px;
+  margin-right: auto;
+  margin-left: auto;
+
+  position: relative;
+
+  left: 0;
+  right: 0;
+}
+nav a {
+  font-size: 0.9em;
+  text-decoration: none;
+  color: white;
+}
+nav a.link{
+  color: white;
+}
+nav button {
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 30px;
+  background: none;
+  color: white;
+  border: 1px solid white;
+}
+
+#band,
+#media,
+#forum,
+#jammers,
+#logo,
+#login,
+#aboutus,
+.search-bar-btn:hover {
+  transition: 0.3s ease;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#band:hover{
+  color:#fbcc34;
+
+}
+
+#media:hover{
+  color:#fbcc34;
+}
+
+#forum:hover{
+  color:#fbcc34;
+}
+
+#media:hover{
+  color:#fbcc34;
+}
+#jammers:hover{
+  color:#fbcc34;
+}
+#login:hover{
+  color:#fbcc34;
+}
+#aboutus:hover{
+  color:#fbcc34;
+}
+/* nav li:hover,
+nav button:hover {
+  cursor: pointer;
+} */
+
+nav img {
+  height: 132px;
+  width: 110px;
+  vertical-align: middle;
+}
+
+nav ul {
+  display: inline-block;
+
+  width: 100%;
+  text-align: center;
+  margin-top: -35px;
+}
+nav ul li {
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 18px;
+  margin-right: 38px;
+  vertical-align: middle;
+}
+
+nav ul li #three1{
+  position: absolute;
+  max-width: 30px;
+  max-height: 30px;
+  top: 0px;
+  opacity: 0;
+}
+nav ul li #three2{
+      left: 240px;
+  position: absolute;
+  max-width: 30px;
+  max-height: 30px;
+  top: 0px;
+  opacity: 0;
+}
+nav ul li #three3{
+  left: 340px;
+  position: absolute;
+  max-width: 30px;
+  max-height: 30px;
+  top: 0px;
+  opacity: 0;
+}
+nav ul li #three4{
+  left: 450px;
+  position: absolute;
+  max-width: 30px;
+  max-height: 30px;
+  top: 0px;
+  opacity: 0;
+}
+
+nav ul li #three5{
+  left: 740px;
+  position: absolute;
+  max-width: 30px;
+  max-height: 30px;
+  top: 0px;
+  opacity: 0;
+}
+
+nav ul li #three6{
+  left: 880px;
+
+  position: absolute;
+  max-width: 30px;
+  max-height: 30px;
+  top: 0px;
+  opacity: 0;
+}
+#three1:hover{
+  opacity: 1;
+}
+
+#three2:hover{
+  opacity: 1;
+}
+#three3:hover{
+  opacity: 1;
+}
+#three4:hover{
+  opacity: 1;
+}
+#three5:hover{
+  opacity: 1;
+}
+#three6:hover{
+  opacity: 1;
+}
+
+nav .search-bar-btn {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+footer {
+  margin-top: 0%;
+  color: white;
+  display: table;
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  background-color: black;
+  z-index: -10;
+}
+}

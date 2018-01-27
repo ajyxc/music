@@ -1,0 +1,9 @@
+body {
+  background-image: url("../img/background1/band_post.jpg");
+}
+
+.allbandpost {
+  margin-left: 100px;
+  max-height: 2100px;
+  margin-top: 190px;
+}
